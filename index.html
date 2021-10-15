@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+    <div class="txtlb"> <label>a = </label><input type="number" id="numA" name="A"></div>
+    <div class="txtlb"> <label>b = </label><input type="number" id="numB" name="B"></div>
+
+    <!-- <input type="button" name="add" id="add" onclick="add()" value="add">
+    <input type="button" name="substract" id="substract" onclick="substract()" value="substract">
+    <input type="button" name="multiply" id="multiply" onclick="multiply()" value="multiply">
+    <input type="button" name="divide" id="divide" onclick="divide()" value="divide"> -->
+
+    <input type="button" name="add" class="btn" id="add" onclick="myFunction(this.id)" value="add">
+    <input type="button" name="substract" class="btn" id="substract" onclick="myFunction(this.id)" value="substract">
+    <input type="button" name="multiply" class="btn" id="multiply" onclick="myFunction(this.id)" value="multiply">
+    <input type="button" name="divide" class="btn" id="divide" onclick="myFunction(this.id)" value="divide">
+    <br/>
+
+<div class="txtlb"> <label>Result : </label><input type="number" id="result" name="result" value="result"></div>
+<input type="button" name="print array" class="btn" id="PrintArray" onclick="PrintArray()" value="PrintArray">
+<div id="Results"></div>
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>
